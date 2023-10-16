@@ -9,8 +9,7 @@ class Program
         {
             Console.WriteLine("Geben Sie ein Datum ein (im beliebigen Format):");
             string input = Console.ReadLine();
-            //____________________________________________//___________________________
-
+            
             string dateFormat = GetDateFormat(input);
 
             if (dateFormat != (""))
